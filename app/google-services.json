@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "460387287854",
+    "project_id": "redden-c1e7c",
+    "storage_bucket": "redden-c1e7c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460387287854:android:a82341939b329c04b430bf",
+        "android_client_info": {
+          "package_name": "com.example.redden"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460387287854-9ed9g3cu80rd7bqd7mpj3pnl3flvfq2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrOdyitDvKE75oZ3LXGbSsJu3yluGl9kw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460387287854-9ed9g3cu80rd7bqd7mpj3pnl3flvfq2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

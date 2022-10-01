@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/primary">
+
+  <TextView
+      android:id="@+id/primary"
+      android:layout_width="wrap_content"
+      android:layout_height="72dp"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginStart="52dp"
+      android:layout_marginTop="35dp"
+      android:text="Primary Contect"
+      android:textColor="#9E2F52"
+      android:textSize="35dp" />
+
+  <TextView
+      android:id="@+id/name"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/primary"
+      android:layout_alignParentStart="true"
+      android:layout_marginStart="10dp"
+      android:layout_marginTop="25dp"
+      android:text="Name"
+      android:textSize="35dp"
+      android:textColor="@color/black"/>
+
+  <EditText
+      android:id="@+id/nameedit"
+      android:layout_width="253dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/primary"
+      android:layout_alignBaseline="@+id/name"
+      android:layout_marginLeft="54dp"
+      android:layout_toRightOf="@+id/name"
+      android:background="#37393737"
+      android:inputType="text"
+      android:textColor="#050000" />
+
+  <TextView
+      android:id="@+id/address"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/name"
+      android:layout_marginStart="10dp"
+      android:layout_marginTop="25dp"
+      android:text="Address"
+      android:textColor="@color/black"
+      android:textSize="35dp" />
+
+  <EditText
+      android:id="@+id/addressedit"
+      android:layout_width="251dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/nameedit"
+      android:layout_alignBaseline="@+id/address"
+      android:layout_marginLeft="21dp"
+      android:layout_toRightOf="@+id/address"
+      android:background="#37393737"
+      android:inputType="text"
+      android:textColor="#050000" />
+
+
+  <TextView
+      android:id="@+id/number"
+      android:layout_width="141dp"
+      android:layout_height="93dp"
+      android:layout_below="@+id/address"
+      android:layout_marginStart="10dp"
+      android:layout_marginTop="25dp"
+      android:text="Phone Number"
+      android:textColor="@color/black"
+      android:textSize="35dp" />
+
+  <EditText
+      android:id="@+id/numberedit"
+      android:layout_width="251dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/addressedit"
+      android:layout_alignBaseline="@+id/number"
+      android:layout_marginLeft="9dp"
+      android:layout_toRightOf="@+id/number"
+      android:background="#37393737"
+      android:inputType="number"
+      android:textColor="#050000" />
+  <TextView
+      android:id="@+id/alternumber"
+      android:layout_width="150dp"
+      android:layout_height="81dp"
+      android:layout_below="@id/number"
+      android:layout_marginStart="10dp"
+      android:layout_marginTop="25dp"
+      android:text="Alter Number"
+      android:textColor="@color/black"
+      android:textSize="35dp"/>
+
+  <EditText
+      android:id="@+id/alteredit"
+      android:layout_width="249dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/numberedit"
+      android:layout_alignBaseline="@+id/alternumber"
+      android:layout_marginLeft="2dp"
+      android:layout_toRightOf="@+id/alternumber"
+      android:background="#37393737"
+      android:inputType="number"
+      android:textColor="#050000" />
+
+
+  <TextView
+      android:id="@+id/blood"
+      android:layout_width="111dp"
+      android:layout_height="102dp"
+      android:layout_below="@+id/alternumber"
+      android:layout_marginStart="10dp"
+      android:layout_marginTop="25dp"
+      android:text="Blood Group"
+      android:textColor="@color/black"
+      android:textSize="35dp" />
+
+  <EditText
+      android:id="@+id/bloodeditedit"
+      android:layout_width="253dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/numberedit"
+      android:layout_alignBaseline="@+id/blood"
+      android:layout_marginLeft="7dp"
+      android:layout_toRightOf="@+id/number"
+      android:background="#37393737"
+      android:inputType="text"
+      android:textColor="#050000" />
+
+  <Button
+      android:id="@+id/button2"
+      android:layout_width="124dp"
+      android:layout_height="66dp"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginEnd="38dp"
+      android:layout_marginBottom="37dp"
+      android:text="save" />
+
+</RelativeLayout>

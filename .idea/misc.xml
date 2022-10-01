@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/redden3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.166" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/redden3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.166" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/redden3/app/src/main/res/layout/activity_ambulance.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/redden3/app/src/main/res/layout/activity_hospital.xml" value="0.1526293287729799" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/redden3/app/src/main/res/layout/activity_login.xml" value="0.1526293287729799" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/redden3/app/src/main/res/layout/activity_main.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/redden3/app/src/main/res/layout/activity_police.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/redden3/app/src/main/res/layout/activity_police1.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/redden3/app/src/main/res/layout/activity_primary.xml" value="0.16417272338606242" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/redden3/app/src/main/res/layout/activity_redden.xml" value="0.1526293287729799" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/redden3/app/src/main/res/layout/activity_user.xml" value="0.1526293287729799" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/redden3/app/src/main/res/layout/ambulance.xml" value="0.1526293287729799" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/redden3/app/src/main/res/layout/ambulance2.xml" value="0.1526293287729799" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/redden3/app/src/main/res/layout/hospital.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/redden3/app/src/main/res/layout/hospital1.xml" value="0.1526293287729799" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/redden3/app/src/main/res/layout/loginpage.xml" value="0.1526293287729799" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/redden3/app/src/main/res/layout/police.xml" value="0.25" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/redden3/app/src/main/res/layout/primary.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/redden3/app/src/main/res/layout/sample.xml" value="0.1526293287729799" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/redden3/app/src/main/res/layout/user.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
