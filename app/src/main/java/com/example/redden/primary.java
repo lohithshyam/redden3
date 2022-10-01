@@ -18,6 +18,7 @@ import java.util.HashMap;
 
 public class primary extends AppCompatActivity {
 
+
     private EditText  username;
     private EditText bloodgroup;
     private EditText phonenumber;

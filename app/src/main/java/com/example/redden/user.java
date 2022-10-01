@@ -3,6 +3,7 @@ package com.example.redden;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -13,10 +14,13 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.HashMap;
 
 public class user extends AppCompatActivity {
+    public FirebaseFirestore db;
+
 
     private EditText  username;
     private EditText bloodgroup;
@@ -32,12 +36,24 @@ public class user extends AppCompatActivity {
 
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user);
 
         firebaseDatabase=FirebaseDatabase.getInstance();
         databaseReference =firebaseDatabase.getReference();
+        db=FirebaseFirestore.getInstance();
+
+        Button button1 = findViewById(R.id.next);
+
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent int1=new Intent(user.this,sos.class);
+                startActivity(int1);
+
+            }
+        });
 
 
         username=findViewById(R.id.edit1);
@@ -86,6 +102,7 @@ public class user extends AppCompatActivity {
 
                             }
                         });
+
 
 
 
